@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/miniPiano.css">
+    <title>Mini Piano</title>
+
+</head>
+
+<body>
+    <div id="name">Mini Piano</div>
+    <div id="container">
+        <div>
+            <div data-key="20" class="w-key key firstKey">
+                <div class="notes">C</div><kbd>caps lock</kbd>
+            </div>
+            <div data-key="65" class="w-key key">
+                <div class="notes">D</div><kbd>A</kbd>
+            </div>
+            <div data-key="83" class="w-key key">
+                <div class="notes">E</div><kbd>S</kbd>
+            </div>
+            <div data-key="68" class="w-key key">
+                <div class="notes">F</div><kbd>D</kbd>
+            </div>
+            <div data-key="70" class="w-key key">
+                <div class="notes">G</div><kbd>F</kbd>
+            </div>
+            <div data-key="71" class="w-key key">
+                <div class="notes">A</div><kbd>G</kbd>
+            </div>
+            <div data-key="72" class="w-key key">
+                <div class="notes">B</div><kbd>H</kbd>
+            </div>
+            <div data-key="74" class="w-key key">
+                <div class="notes">C</div><kbd>J</kbd>
+            </div>
+            <div data-key="75" class="w-key key">
+                <div class="notes">D</div><kbd>K</kbd>
+            </div>
+            <div data-key="76" class="w-key key">
+                <div class="notes lastKey">E</div><kbd>L</kbd>
+            </div>
+        </div>
+
+        <div>
+            <div data-key="81" data-key="83" class="b-key key">
+                <div class="notes2">C#</div><kbd>Q</kbd>
+            </div>
+            <div data-key="87" class="b-key key">
+                <div class="notes2">D#</div><kbd>W</kbd>
+            </div>
+            <div data-key="82" class="b-key key s-key">
+                <div class="notes2">F#</div><kbd>R</kbd>
+            </div>
+            <div data-key="84" class="b-key key">
+                <div class="notes2">G#</div><kbd>T</kbd>
+            </div>
+            <div data-key="89" class="b-key key ">
+                <div class="notes2">A#</div><kbd>Y</kbd>
+            </div>
+            <div data-key="73" class="b-key key s-key">
+                <div class="notes2">C#</div><kbd>I</kbd>
+            </div>
+            <div data-key="79" class="b-key key">
+                <div class="notes2">D#</div><kbd>O</kbd>
+            </div>
+        </div>
+    </div>
+
+    <audio data-key="20" src="sounds/C.wav"></audio>
+    <audio data-key="65" src="sounds/D.wav"></audio>
+    <audio data-key="83" src="sounds/E.wav"></audio>
+    <audio data-key="68" src="sounds/F.wav"></audio>
+    <audio data-key="70" src="sounds/G.wav"></audio>
+    <audio data-key="71" src="sounds/A.wav"></audio>
+    <audio data-key="72" src="sounds/B.wav"></audio>
+    <audio data-key="74" src="sounds/C.wav"></audio>
+    <audio data-key="75" src="sounds/D.wav"></audio>
+    <audio data-key="76" src="sounds/E.wav"></audio>
+
+    <audio data-key="81" src="sounds/Csharp.wav"></audio>
+    <audio data-key="87" src="sounds/Dsharp.wav"></audio>
+    <audio data-key="82" src="sounds/Fsharp.wav"></audio>
+    <audio data-key="84" src="sounds/Gsharp.wav"></audio>
+    <audio data-key="89" src="sounds/Asharp.wav"></audio>
+    <audio data-key="73" src="sounds/Csharp.wav"></audio>
+    <audio data-key="79" src="sounds/Dsharp.wav"></audio>
+
+    <div id="copyrightDiv"><img id="copyright" src="images/copyright.png"><a href="https://github.com/sudipbhakat07"> Sudip
+            Bhakat</a></div>
+
+</body>
+<script src="js/miniPiano.js"></script>
+
+</html>
